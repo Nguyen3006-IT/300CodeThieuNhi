@@ -30,10 +30,8 @@ public class Sentence1 {
         String[] arr = str.split(" ");
         System.out.print("target = ");
         int target = input.nextInt();
-        
-        
-        
     }
+    
     public int[] twoSum(String[] arr, int target){
         for (int i = 0; i < arr.length; i++) {
             for (int j = i+1; j < arr.length; j++) {

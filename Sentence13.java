@@ -41,12 +41,10 @@ public class Sentence13 {
 
         Listnode head = n1;
         
-        
         head.next = n2;
         n2.next = n3;
         n3.next = n4;
 
-        
         System.out.println(run.hasCycle(head, pos));
     }
 }
